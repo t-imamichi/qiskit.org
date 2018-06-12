@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>qiskit.backends.local.LocalProvider &#8212; QISKit SDK 0.5.4 ドキュメント</title>
+    <title>qiskit.backends.local.localprovider module &#8212; QISKit SDK 0.5.4 ドキュメント</title>
     <link rel="stylesheet" href="../_static/bizstyle.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -28,8 +28,8 @@
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="検索" href="../search.html" />
-    <link rel="next" title="qiskit.backends.local.QasmSimulatorCpp" href="qiskit.backends.local.QasmSimulatorCpp.html" />
-    <link rel="prev" title="qiskit.backends.local.LocalJob" href="qiskit.backends.local.LocalJob.html" />
+    <link rel="next" title="qiskit.backends.local.qasm_simulator_cpp module" href="qiskit.backends.local.qasm_simulator_cpp.html" />
+    <link rel="prev" title="qiskit.backends.local.localjob module" href="qiskit.backends.local.localjob.html" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -39,8 +39,8 @@
 <div id="head" class="head">
     <a href="/">QISKit</a>
     <div class="langbox">
-        <a href="/documentation/_autodoc/qiskit.backends.local.LocalProvider.html">english</a> /
-        <a href="/documentation/ja/_autodoc/qiskit.backends.local.LocalProvider.html">japanese</a>
+        <a href="/documentation/_autodoc/qiskit.backends.local.localprovider.html">english</a> /
+        <a href="/documentation/ja/_autodoc/qiskit.backends.local.localprovider.html">japanese</a>
     </div>
 </div>
     <div class="related" role="navigation" aria-label="related navigation">
@@ -53,10 +53,10 @@
           <a href="../py-modindex.html" title="Pythonモジュール索引"
              >モジュール</a> |</li>
         <li class="right" >
-          <a href="qiskit.backends.local.QasmSimulatorCpp.html" title="qiskit.backends.local.QasmSimulatorCpp"
+          <a href="qiskit.backends.local.qasm_simulator_cpp.html" title="qiskit.backends.local.qasm_simulator_cpp module"
              accesskey="N">次へ</a> |</li>
         <li class="right" >
-          <a href="qiskit.backends.local.LocalJob.html" title="qiskit.backends.local.LocalJob"
+          <a href="qiskit.backends.local.localjob.html" title="qiskit.backends.local.localjob module"
              accesskey="P">前へ</a> |</li>
 <li id="toc-toggle">
 <a class="btn btn-primary" role="button" data-toggle="collapse"
@@ -94,19 +94,18 @@
 <li class="toctree-l5"><a class="reference internal" href="qiskit.backends.baseprovider.html">qiskit.backends.baseprovider module</a></li>
 <li class="toctree-l5"><a class="reference internal" href="qiskit.backends.ibmq.html">qiskit.backends.ibmq package</a></li>
 <li class="toctree-l5 current"><a class="reference internal" href="qiskit.backends.local.html">qiskit.backends.local package</a><ul class="current">
-<li class="toctree-l6"><a class="reference internal" href="qiskit.backends.local.html#submodules">Submodules</a></li>
-<li class="toctree-l6 current"><a class="reference internal" href="qiskit.backends.local.html#classes">Classes</a><ul class="current">
-<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.CliffordSimulatorCpp.html">qiskit.backends.local.CliffordSimulatorCpp</a></li>
-<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.LocalJob.html">qiskit.backends.local.LocalJob</a></li>
-<li class="toctree-l7 current"><a class="current reference internal" href="#">qiskit.backends.local.LocalProvider</a></li>
-<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.QasmSimulatorCpp.html">qiskit.backends.local.QasmSimulatorCpp</a></li>
-<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.QasmSimulatorProjectQ.html">qiskit.backends.local.QasmSimulatorProjectQ</a></li>
-<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.QasmSimulatorPy.html">qiskit.backends.local.QasmSimulatorPy</a></li>
-<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.StatevectorSimulatorCpp.html">qiskit.backends.local.StatevectorSimulatorCpp</a></li>
-<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.StatevectorSimulatorPy.html">qiskit.backends.local.StatevectorSimulatorPy</a></li>
-<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.UnitarySimulatorPy.html">qiskit.backends.local.UnitarySimulatorPy</a></li>
+<li class="toctree-l6 current"><a class="reference internal" href="qiskit.backends.local.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.localjob.html">qiskit.backends.local.localjob module</a></li>
+<li class="toctree-l7 current"><a class="current reference internal" href="#">qiskit.backends.local.localprovider module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.qasm_simulator_cpp.html">qiskit.backends.local.qasm_simulator_cpp module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.qasm_simulator_projectq.html">qiskit.backends.local.qasm_simulator_projectq module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.qasm_simulator_py.html">qiskit.backends.local.qasm_simulator_py module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.statevector_simulator_cpp.html">qiskit.backends.local.statevector_simulator_cpp module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.statevector_simulator_py.html">qiskit.backends.local.statevector_simulator_py module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="qiskit.backends.local.unitary_simulator_py.html">qiskit.backends.local.unitary_simulator_py module</a></li>
 </ul>
 </li>
+<li class="toctree-l6"><a class="reference internal" href="qiskit.backends.local.html#classes">Classes</a></li>
 </ul>
 </li>
 </ul>
@@ -131,15 +130,15 @@
 
 <p class="spacer"/>
   <h4>前のトピックへ</h4>
-  <p class="topless"><a href="qiskit.backends.local.LocalJob.html"
-                        title="前の章へ">qiskit.backends.local.LocalJob</a></p>
+  <p class="topless"><a href="qiskit.backends.local.localjob.html"
+                        title="前の章へ">qiskit.backends.local.localjob module</a></p>
   <h4>次のトピックへ</h4>
-  <p class="topless"><a href="qiskit.backends.local.QasmSimulatorCpp.html"
-                        title="次の章へ">qiskit.backends.local.QasmSimulatorCpp</a></p>
+  <p class="topless"><a href="qiskit.backends.local.qasm_simulator_cpp.html"
+                        title="次の章へ">qiskit.backends.local.qasm_simulator_cpp module</a></p>
   <div role="note" aria-label="source link">
     <h3>このページ</h3>
     <ul class="this-page-menu">
-      <li><a href="../_sources/_autodoc/qiskit.backends.local.LocalProvider.rst.txt"
+      <li><a href="../_sources/_autodoc/qiskit.backends.local.localprovider.rst.txt"
             rel="nofollow">ソースコードを表示</a></li>
     </ul>
    </div>
@@ -161,59 +160,8 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="qiskit-backends-local-localprovider">
-<h1>qiskit.backends.local.LocalProvider<a class="headerlink" href="#qiskit-backends-local-localprovider" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<dl class="class">
-<dt id="qiskit.backends.local.LocalProvider">
-<em class="property">class </em><code class="descclassname">qiskit.backends.local.</code><code class="descname">LocalProvider</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/qiskit/backends/local/localprovider.html#LocalProvider"><span class="viewcode-link">[ソース]</span></a><a class="headerlink" href="#qiskit.backends.local.LocalProvider" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <code class="xref py py-class docutils literal"><span class="pre">qiskit.backends.baseprovider.BaseProvider</span></code></p>
-<p>Provider for local backends.</p>
-<p class="rubric">Methods</p>
-<table border="1" class="longtable docutils">
-<colgroup>
-<col width="10%" />
-<col width="90%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">__init__</span></code>(*args,&nbsp;**kwargs)</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="#qiskit.backends.local.LocalProvider.aliased_backend_names" title="qiskit.backends.local.LocalProvider.aliased_backend_names"><code class="xref py py-obj docutils literal"><span class="pre">aliased_backend_names</span></code></a>()</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><a class="reference internal" href="#qiskit.backends.local.LocalProvider.available_backends" title="qiskit.backends.local.LocalProvider.available_backends"><code class="xref py py-obj docutils literal"><span class="pre">available_backends</span></code></a>([filters])</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><a class="reference internal" href="#qiskit.backends.local.LocalProvider.deprecated_backend_names" title="qiskit.backends.local.LocalProvider.deprecated_backend_names"><code class="xref py py-obj docutils literal"><span class="pre">deprecated_backend_names</span></code></a>()</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><a class="reference internal" href="#qiskit.backends.local.LocalProvider.get_backend" title="qiskit.backends.local.LocalProvider.get_backend"><code class="xref py py-obj docutils literal"><span class="pre">get_backend</span></code></a>(name)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<dl class="method">
-<dt id="qiskit.backends.local.LocalProvider.aliased_backend_names">
-<code class="descname">aliased_backend_names</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/qiskit/backends/local/localprovider.html#LocalProvider.aliased_backend_names"><span class="viewcode-link">[ソース]</span></a><a class="headerlink" href="#qiskit.backends.local.LocalProvider.aliased_backend_names" title="この定義へのパーマリンク">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="qiskit.backends.local.LocalProvider.available_backends">
-<code class="descname">available_backends</code><span class="sig-paren">(</span><em>filters=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/qiskit/backends/local/localprovider.html#LocalProvider.available_backends"><span class="viewcode-link">[ソース]</span></a><a class="headerlink" href="#qiskit.backends.local.LocalProvider.available_backends" title="この定義へのパーマリンク">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="qiskit.backends.local.LocalProvider.deprecated_backend_names">
-<code class="descname">deprecated_backend_names</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/qiskit/backends/local/localprovider.html#LocalProvider.deprecated_backend_names"><span class="viewcode-link">[ソース]</span></a><a class="headerlink" href="#qiskit.backends.local.LocalProvider.deprecated_backend_names" title="この定義へのパーマリンク">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="qiskit.backends.local.LocalProvider.get_backend">
-<code class="descname">get_backend</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/qiskit/backends/local/localprovider.html#LocalProvider.get_backend"><span class="viewcode-link">[ソース]</span></a><a class="headerlink" href="#qiskit.backends.local.LocalProvider.get_backend" title="この定義へのパーマリンク">¶</a></dt>
-<dd></dd></dl>
-
-</dd></dl>
-
+  <div class="section" id="qiskit-backends-local-localprovider-module">
+<h1>qiskit.backends.local.localprovider module<a class="headerlink" href="#qiskit-backends-local-localprovider-module" title="このヘッドラインへのパーマリンク">¶</a></h1>
 </div>
 
 
@@ -232,10 +180,10 @@
           <a href="../py-modindex.html" title="Pythonモジュール索引"
              >モジュール</a> |</li>
         <li class="right" >
-          <a href="qiskit.backends.local.QasmSimulatorCpp.html" title="qiskit.backends.local.QasmSimulatorCpp"
+          <a href="qiskit.backends.local.qasm_simulator_cpp.html" title="qiskit.backends.local.qasm_simulator_cpp module"
              >次へ</a> |</li>
         <li class="right" >
-          <a href="qiskit.backends.local.LocalJob.html" title="qiskit.backends.local.LocalJob"
+          <a href="qiskit.backends.local.localjob.html" title="qiskit.backends.local.localjob module"
              >前へ</a> |</li>
 <li id="toc-toggle">
 <a class="btn btn-primary" role="button" data-toggle="collapse"

@@ -1,23 +1,2 @@
-qiskit\.backends\.ibmq\.IBMQBackend
-===================================
-
-
-.. currentmodule:: qiskit.backends.ibmq
-
-.. autoclass:: IBMQBackend
-
-   
-
-   
-   .. rubric:: Methods
-
-   .. autosummary::
-   
-      ~IBMQBackend.__init__
-      ~IBMQBackend.run
-   
-   
-
-   
-   
-   
+qiskit.backends.ibmq.ibmqbackend module
+========================================

@@ -1,23 +1,2 @@
-qiskit\.backends\.BaseBackend
-=============================
-
-
-.. currentmodule:: qiskit.backends
-
-.. autoclass:: BaseBackend
-
-   
-
-   
-   .. rubric:: Methods
-
-   .. autosummary::
-   
-      ~BaseBackend.__init__
-      ~BaseBackend.run
-   
-   
-
-   
-   
-   
+qiskit.backends.basebackend module
+===================================
